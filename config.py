@@ -22,12 +22,12 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME", "veezmusicbot")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "veezassistant1")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "XaellynGroup")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xaellynwords")
 # isi dengan username kamu tanpa simbol @
-OWNER_NAME = getenv("OWNER_NAME", "dlwrml")
+OWNER_NAME = getenv("OWNER_NAME", "iqexx")
 # fill with your nickname
-ALIVE_NAME = getenv("ALIVE_NAME", "Levina")
+ALIVE_NAME = getenv("ALIVE_NAME", "Xaellyn")
 # fill with your id as the owner of the bot
 OWNER_ID = int(os.environ.get("OWNER_ID"))
 DATABASE_URL = os.environ.get("DATABASE_URL")  # fill with your mongodb url
@@ -43,6 +43,6 @@ U_BRANCH = "main"
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_REPO = os.environ.get(
-    "UPSTREAM_REPO", "https://github.com/levina-lab/VeezMusic"
+    "UPSTREAM_REPO", "https://github.com/itsUcupxXx/CloneVeezMusic"
 )
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
